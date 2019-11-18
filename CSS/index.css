@@ -134,12 +134,6 @@ html,
 body {
   height: 100%;
 }
-.subtitle {
-  font-weight: 700;
-  color: black;
-  font-size: 0.75rem;
-  margin: 0;
-}
 .container {
   width: 90%;
   max-width: 900px;
@@ -150,7 +144,7 @@ body {
   justify-content: space-between;
 }
 header {
-  background: pink;
+  background: #edc7c5;
   padding: 2em 0;
 }
 @media (max-width: 675px) {
