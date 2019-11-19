@@ -66,6 +66,7 @@ html, body {
 @text-font: 'Ubuntu', sans-serif;
 @import url('https://fonts.googleapis.com/css?family=Pacifico|Ubuntu&display=swap');
 @phone: ~"(max-width: 500px)";
+//mixin//
 .font(){
 	font-weight: 700;
 }
@@ -381,7 +382,7 @@ input[type=text], select, textarea {
 	//text-align: left;
   }
 
-#line {
+.line {
 	border: dotted pink 6px;
     border-bottom: none;
     width: 5%;
@@ -410,10 +411,11 @@ input[type=text], select, textarea {
 	}
   
 	.pics {
-		display: flex;
+	     display: flex;
 	  justify-content: center;
-	   margin-top: 2%;
-	   // display: block;
+	   margin-top: 10%;
+	   
+	   //display: block;
 	  //margin-block-start: 1em;
 	  //margin-block-end: 1em;
 	  //margin-inline-start: 0px;
