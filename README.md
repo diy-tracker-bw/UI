@@ -1,18 +1,18 @@
 # Project Name
 -DIY Tracker
 
-#PITCH
+# PITCH
 Pinterest is great, but I don't get a lot out of seeing SO much. I want to see people's DIY Projects and see the steps they took to do it themselves.
-MVP
+# MVP
 - As a user I can create and login to an account
 - As a user I can view and search DIY projects others have submitted
 - As a user I can create edit and delete a DIY project
 - As a user I can rate other DIY projects
-#STRETCH
+# STRETCH
 - As a user I can add photos to my projects
 - As  a use I can share my favorite projects to social media
 - As a use I can add add other projects to my "Favorites"
-##Team members
+# Team members
 WEB UI DEVELOPER
 Naomi Rodriguez
 WEB REACT I
