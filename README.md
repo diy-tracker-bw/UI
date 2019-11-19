@@ -1,5 +1,5 @@
 # Project Name
--DIY Tracker
+- DIY Tracker
 
 # PITCH
 Pinterest is great, but I don't get a lot out of seeing SO much. I want to see people's DIY Projects and see the steps they took to do it themselves.
@@ -13,14 +13,14 @@ Pinterest is great, but I don't get a lot out of seeing SO much. I want to see p
 - As  a use I can share my favorite projects to social media
 - As a use I can add add other projects to my "Favorites"
 # Team members
-WEB UI DEVELOPER
-Naomi Rodriguez
-WEB REACT I
-Courtland Bourgeois
-WEB REACT II
-DeAndre Johnson
-BACKEND DEVELOPER
-Patrick Chow
+- WEB UI DEVELOPER
+- Naomi Rodriguez
+- WEB REACT I
+- Courtland Bourgeois
+- WEB REACT II
+- DeAndre Johnson
+- BACKEND DEVELOPER
+- Patrick Chow
 
 
 
