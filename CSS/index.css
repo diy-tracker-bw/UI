@@ -393,7 +393,7 @@ input[type=submit]:hover {
   justify-content: center;
   margin-top: 2%;
 }
-.line {
+#line {
   border: dotted pink 6px;
   border-bottom: none;
   width: 5%;
