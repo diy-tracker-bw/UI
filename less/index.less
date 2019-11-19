@@ -65,7 +65,7 @@ html, body {
 @body-font: 'Pacifico', cursive;
 @text-font: 'Ubuntu', sans-serif;
 @import url('https://fonts.googleapis.com/css?family=Pacifico|Ubuntu&display=swap');
-
+@phone: ~"(max-width: 500px)";
 body {
 	
 	margin: 0;
@@ -100,9 +100,7 @@ h1 {
 a {
 	color: black;
 }
-
-a:hover,
-a:focus {
+  &:hover {
 	color: grey;
 }
 strong {
@@ -386,7 +384,43 @@ input[type=text], select, textarea {
 }
 
 
-.right {
-	display: flex;
-	justify-content: center;
-}
+//.right {
+	//display: flex;
+	//justify-content: center;
+//}
+
+
+    @media (max-width: 500px){
+    
+	.team {
+		background-color: whitesmoke;
+	}
+  
+	.our {
+		display: flex;
+		justify-content: center;
+		margin-top: 10%;
+		font-family: sans-serif;
+		font-size: 1.5em;
+	}
+  
+	.pics {
+		display: flex;
+	  justify-content: center;
+	   margin-top: 2%;
+	   // display: block;
+	  //margin-block-start: 1em;
+	  //margin-block-end: 1em;
+	  //margin-inline-start: 0px;
+	  //margin-inline-end: 0px;
+	  //text-align: left;
+	}
+  
+  .line {
+	  border: dotted pink 6px;
+	  border-bottom: none;
+	  width: 5%;
+	  margin: 100px auto;
+  }
+    
+	}	
