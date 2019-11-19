@@ -62,7 +62,16 @@ html, body {
 //variables 
 @main-color: rgb(237, 199, 197);
 @body-font: 'Pacifico', cursive;
-@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+@text-font: 'Ubuntu', sans-serif;
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Ubuntu&display=swap');
+
+body {
+	
+	margin: 0;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 1.125rem;
+	font-weight: 300;
+}
 
 
 h1 {
@@ -70,13 +79,54 @@ h1 {
   color: gray;
 }
 
+a {
+	color: black;
+}
+
+a:hover,
+a:focus {
+	color: grey;
+}
+strong {
+	font-weight: 700;
+}
+
+//h1 subtitle//
+.subtitle {
+  font-weight: 700;
+  color: black;
+  font-size: .75rem;
+  margin: 0;
+}
+.article-title {
+	font-size: 1.5rem;
+}
+
+.article-read-more,
+.article-info {
+	font-size: 0.875rem;
+}
+
+.article-read-more {
+	text-decoration: none;
+	font-weight: 700;
+}
+
+.article-read-more:hover,
+.article-read-more:focus {
+	text-decoration: underline;
+	
+}
+
+
+
 .container {
 	width: 90%;
 	max-width: 900px;
 	margin: 0 auto;
 }
 
-.container-nav {
+.container-flex {
 	display: flex;
 	justify-content: space-between;
 }
@@ -87,7 +137,7 @@ header {
 }
 
 @media (max-width: 675px) {
-.container-nav {
+.container-flex {
 	flex-direction: column;
 }
    
@@ -95,6 +145,14 @@ header {
 		text-align: center;
 	   }
 	}
+   
+   main {
+	   width: 75%;
+   }
+
+   aside {
+	   width: 20%;
+   }
 
 	//nav//
  nav ul {
@@ -138,4 +196,4 @@ header {
     }
  }
 
- 
+

@@ -141,16 +141,60 @@ body {
   font-display: swap;
   src: local('Pacifico Regular'), local('Pacifico-Regular'), url(https://fonts.gstatic.com/s/pacifico/v16/FwZY7-Qmy14u9lezJ-6H6Mw.ttf) format('truetype');
 }
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Ubuntu Regular'), local('Ubuntu-Regular'), url(https://fonts.gstatic.com/s/ubuntu/v14/4iCs6KVjbNBYlgoKfw7z.ttf) format('truetype');
+}
+body {
+  margin: 0;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.125rem;
+  font-weight: 300;
+}
 h1 {
   font-family: 'Pacifico', cursive;
   color: gray;
+}
+a {
+  color: black;
+}
+a:hover,
+a:focus {
+  color: grey;
+}
+strong {
+  font-weight: 700;
+}
+.subtitle {
+  font-weight: 700;
+  color: black;
+  font-size: 0.75rem;
+  margin: 0;
+}
+.article-title {
+  font-size: 1.5rem;
+}
+.article-read-more,
+.article-info {
+  font-size: 0.875rem;
+}
+.article-read-more {
+  text-decoration: none;
+  font-weight: 700;
+}
+.article-read-more:hover,
+.article-read-more:focus {
+  text-decoration: underline;
 }
 .container {
   width: 90%;
   max-width: 900px;
   margin: 0 auto;
 }
-.container-nav {
+.container-flex {
   display: flex;
   justify-content: space-between;
 }
@@ -159,12 +203,18 @@ header {
   padding: 2em 0;
 }
 @media (max-width: 675px) {
-  .container-nav {
+  .container-flex {
     flex-direction: column;
   }
   header {
     text-align: center;
   }
+}
+main {
+  width: 75%;
+}
+aside {
+  width: 20%;
 }
 nav ul {
   list-style: none;
