@@ -178,8 +178,7 @@ h1 {
 a {
   color: black;
 }
-a:hover,
-a:focus {
+:hover {
   color: grey;
 }
 strong {
@@ -400,7 +399,26 @@ input[type=submit]:hover {
   width: 5%;
   margin: 100px auto;
 }
-.right {
-  display: flex;
-  justify-content: center;
+@media (max-width: 500px) {
+  .team {
+    background-color: whitesmoke;
+  }
+  .our {
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    font-family: sans-serif;
+    font-size: 1.5em;
+  }
+  .pics {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+  }
+  .line {
+    border: dotted pink 6px;
+    border-bottom: none;
+    width: 5%;
+    margin: 100px auto;
+  }
 }
