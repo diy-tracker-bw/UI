@@ -157,12 +157,16 @@ body {
 .diytitle {
   font-size: 3em;
   margin-bottom: 3%;
+  background-color: #edc7c5;
 }
 .diytitle:hover {
   color: black;
 }
 .bold {
   font-size: 1.5rem;
+}
+.container:hover {
+  background-color: #edc7c5;
 }
 img {
   max-width: 100%;
