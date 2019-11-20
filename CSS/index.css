@@ -105,7 +105,7 @@ section {
   display: block;
 }
 body {
-  line-height: 1;
+  line-height: 1.5;
 }
 ol,
 ul {
@@ -155,8 +155,11 @@ body {
   font-weight: 300;
 }
 .diytitle {
-  font-size: 3.8em;
+  font-size: 3em;
   margin-bottom: 3%;
+}
+.diytitle:hover {
+  color: black;
 }
 img {
   max-width: 100%;
@@ -342,7 +345,6 @@ nav a:focus {
 .widget-recent-post {
   display: flex;
   flex-direction: column;
-  border-bottom: 1px solid #707070;
   margin-bottom: 1em;
 }
 .widget-recent-post:last-child {
@@ -376,6 +378,7 @@ input[type=submit]:hover {
   background-color: pink;
 }
 .container {
+  background-color: #f2f2f2;
   padding: 20px;
 }
 .team {
