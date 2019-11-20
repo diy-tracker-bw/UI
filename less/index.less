@@ -69,6 +69,7 @@ html, body {
 @text-font: 'Ubuntu', sans-serif;
 @import url('https://fonts.googleapis.com/css?family=Pacifico|Ubuntu&display=swap');
 @phone: ~"(max-width: 500px)";
+@phones: ~"(min-width: 675px)";
 
 //mixin//
 .font(){
@@ -203,7 +204,7 @@ footer {
 	padding: 2em 0;
 }
 
-@media (max-width: 675px) {
+@media @phones {
 	header {
         text-align: left;
     }
