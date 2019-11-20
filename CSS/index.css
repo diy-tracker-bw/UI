@@ -183,7 +183,7 @@ h3 {
 }
 h1 {
   font-family: 'Pacifico', cursive;
-  color: gray;
+  color: grey;
   margin-top: 0;
 }
 a {
@@ -451,9 +451,9 @@ a {
   margin: 0 auto;
   margin-top: 100px;
   background-color: white;
-  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 0 10px black;
+  -moz-box-shadow: 0 0 10px black;
+  box-shadow: 0 0 15px black;
   /*
         -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
 	-moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
@@ -487,9 +487,9 @@ a {
   background-size: cover;
   background-position: 50% 50%;
   top: 75px;
-  -webkit-box-shadow: inset 0px 0px 5px 1px rgba(0, 0, 0, 0.3);
-  -moz-box-shadow: inset 0px 0px 5px 1px rgba(0, 0, 0, 0.3);
-  box-shadow: inset 0px 0px 5px 1px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: inset 0px 0px 5px 1px black;
+  -moz-box-shadow: inset 0px 0px 5px 1px black;
+  box-shadow: inset 0px 0px 5px 1px black;
 }
 .photo.active {
   top: -80px;
@@ -560,7 +560,6 @@ button.contact:focus {
 .email-form {
   height: 0;
   overflow: hidden;
-  /*    background-color: #C7D0E1;*/
   width: 300px;
   z-index: -1;
   -webkit-transition: all 0.5s ease-in-out;
@@ -581,18 +580,12 @@ button.contact:focus {
 .email-form input {
   width: 200px;
   text-transform: capitalize;
-  /*    background-color: #a4acbc;*/
-  margin: 0 auto;
-  font-family: inherit;
-  border: 1px solid #dadee5;
-  /*    border: 1px solid black;*/
   margin-top: 35px;
   height: 30px;
   display: block;
 }
 .email-form input:focus,
 .email-form textarea:focus {
-  /*    border: none;*/
   border: 1px solid grey;
   outline: none;
 }
@@ -600,7 +593,6 @@ button.contact:focus {
   font-size: 12px;
   text-transform: uppercase;
   text-align: center;
-  /*    color: black;*/
 }
 .email-form textarea {
   width: 200px;
@@ -627,9 +619,9 @@ button.contact:focus {
   background-size: cover;
   background-position: 50% 50%;
   top: 75px;
-  -webkit-box-shadow: inset 0px 0px 5px 1px rgba(0, 0, 0, 0.3);
-  -moz-box-shadow: inset 0px 0px 5px 1px rgba(0, 0, 0, 0.3);
-  box-shadow: inset 0px 0px 5px 1px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: inset 0px 0px 5px 1px black;
+  -moz-box-shadow: inset 0px 0px 5px 1px black;
+  box-shadow: inset 0px 0px 5px 1px black;
 }
 .two {
   z-index: 3;
@@ -643,9 +635,9 @@ button.contact:focus {
   background-size: cover;
   background-position: 50% 50%;
   top: 75px;
-  -webkit-box-shadow: inset 0px 0px 5px 1px rgba(0, 0, 0, 0.3);
-  -moz-box-shadow: inset 0px 0px 5px 1px rgba(0, 0, 0, 0.3);
-  box-shadow: inset 0px 0px 5px 1px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: inset 0px 0px 5px 1px black;
+  -moz-box-shadow: inset 0px 0px 5px 1px black;
+  box-shadow: inset 0px 0px 5px 1px black;
 }
 .three {
   z-index: 3;
@@ -659,9 +651,9 @@ button.contact:focus {
   background-size: cover;
   background-position: 50% 50%;
   top: 75px;
-  -webkit-box-shadow: inset 0px 0px 5px 1px rgba(0, 0, 0, 0.3);
-  -moz-box-shadow: inset 0px 0px 5px 1px rgba(0, 0, 0, 0.3);
-  box-shadow: inset 0px 0px 5px 1px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: inset 0px 0px 5px 1px black;
+  -moz-box-shadow: inset 0px 0px 5px 1px black;
+  box-shadow: inset 0px 0px 5px 1px black;
 }
 .four {
   z-index: 3;
@@ -675,9 +667,9 @@ button.contact:focus {
   background-size: cover;
   background-position: 50% 50%;
   top: 75px;
-  -webkit-box-shadow: inset 0px 0px 5px 1px rgba(0, 0, 0, 0.3);
-  -moz-box-shadow: inset 0px 0px 5px 1px rgba(0, 0, 0, 0.3);
-  box-shadow: inset 0px 0px 5px 1px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: inset 0px 0px 5px 1px black;
+  -moz-box-shadow: inset 0px 0px 5px 1px black;
+  box-shadow: inset 0px 0px 5px 1px black;
 }
 .team {
   background-color: #edc7c5;

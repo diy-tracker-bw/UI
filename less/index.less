@@ -62,10 +62,14 @@ html, body {
 
 //variables 
 @main-color: rgb(237, 199, 197);
+@white-color: white;
+@grey-color: grey;
+@black-color: black;
 @body-font: 'Pacifico', cursive;
 @text-font: 'Ubuntu', sans-serif;
 @import url('https://fonts.googleapis.com/css?family=Pacifico|Ubuntu&display=swap');
 @phone: ~"(max-width: 500px)";
+
 //mixin//
 .font(){
 	font-weight: 700;
@@ -87,7 +91,7 @@ body {
 }
 
 .diytitle:hover {
-	color: black;
+	color: @black-color;
 }
 
 .bold {
@@ -115,15 +119,15 @@ h2,h3 {
 
 h1 {
   font-family: @body-font;
-  color: gray;
+  color: @grey-color;
   margin-top: 0;
 }
 
 a {
-	color: black;
+	color: @black-color;
 }
   &:hover {
-	color: grey;
+	color: @grey-color;
 }
 strong {
 	.font();
@@ -170,7 +174,7 @@ strong {
 }
 
 .widget-recent-post-title {
-	color: black;
+	color: @black-color;
 }
 
 .container {
@@ -371,7 +375,7 @@ input[type=text], select, textarea {
   
   input[type=submit] {
 	background-color: pink;
-	color: white;
+	color: @white-color;
 	padding: 12px 20px;
 	border: none;
 	border-radius: 4px;
@@ -465,7 +469,7 @@ input[type=text], select, textarea {
 	//  width: 5%;
 	//  margin: 100px auto;
  // }//
- @media (max-width: 500px){
+ @media @phone {
   .diytitle {
 	font-size: 3.0em;
 	margin-bottom: 3%;
@@ -485,7 +489,7 @@ body {
 
     font-family: 'Lato', sans-serif;
     margin: 0;
-    background-color: white;
+    background-color: @white-color;
     
 }
 
@@ -505,10 +509,10 @@ a
     height:400px;
     margin: 0 auto;
     margin-top:100px;
-    background-color: white;
-    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-	-moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-	box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    background-color: @white-color;
+    -webkit-box-shadow: 0 0 10px @black-color;
+	-moz-box-shadow: 0 0 10px @black-color;
+	box-shadow: 0 0 15px @black-color;
     @-webkit-transition: all 0.7s ease-in-out;
     @-moz-transition:    all 0.7s ease-in-out;
     @-o-transition:      all 0.7s ease-in-out;
@@ -553,15 +557,15 @@ a
     border-radius: 50%;
     height: 150px;
     width: 150px;
-    background-color: white;
+    background-color: @white-color;
     margin: 0 auto;
     background-image: url(https://scontent.ftpa1-2.fna.fbcdn.net/v/t1.0-1/p240x240/71497438_2420681227967955_2900388503000973312_n.jpg?_nc_cat=100&_nc_oc=AQmCalucaZGF37k8YLb36BW8dx-7_hbUdM_SHEwKNrkTxNZG716jvJyZ71KK2oys7jZv6DRYogxobcXCTSRVLczV&_nc_ht=scontent.ftpa1-2.fna&oh=5110c175f601932432017e82370997e4&oe=5E83BB40);
     background-size: cover;
     background-position: 50% 50%;
     top:75px;
-    -webkit-box-shadow: inset 0px 0px 5px 1px rgba(0,0,0,0.3);
-    -moz-box-shadow: inset 0px 0px 5px 1px rgba(0,0,0,0.3);
-    box-shadow: inset 0px 0px 5px 1px rgba(0,0,0,0.3);
+    -webkit-box-shadow: inset 0px 0px 5px 1px @black-color;
+    -moz-box-shadow: inset 0px 0px 5px 1px @black-color;
+    box-shadow: inset 0px 0px 5px 1px @black-color;
     @-webkit-transition: top 0.7s ease-in-out, background 0.15s ease;
     @-moz-transition:    top 0.7s ease-in-out, background 0.15s ease;
     @-o-transition:      top 0.7s ease-in-out, background 0.15s ease;
@@ -615,7 +619,7 @@ button.contact
     border:none;
     background-color: transparent;
     font-family: inherit;
-    color: white;
+    color: @white-color;
     background-color: #C7D0E1;
     font-size:12px;
     text-transform: uppercase;
@@ -681,7 +685,6 @@ button.contact:focus
 {
     height: 0;
     overflow: hidden;
-/*    background-color: #C7D0E1;*/
     width: 300px;
      z-index:-1;
     -webkit-transition: all 0.5s ease-in-out;
@@ -706,11 +709,7 @@ button.contact:focus
 {
     width: 200px;
     text-transform: capitalize;
-/*    background-color: #a4acbc;*/
-    margin: 0 auto;
-    font-family: inherit;
-    border: 1px solid #dadee5;
-/*    border: 1px solid black;*/
+
     margin-top: 35px;
     height: 30px;
     display: block;
@@ -721,8 +720,8 @@ button.contact:focus
 }
 .email-form input:focus,.email-form textarea:focus
 {
-/*    border: none;*/
-    border: 1px solid grey;
+
+    border: 1px solid @grey-color;
     outline: none;
     
 }
@@ -731,13 +730,13 @@ button.contact:focus
  font-size: 12px;
  text-transform: uppercase;
  text-align: center;
-/*    color: black;*/
+
 }
 .email-form textarea
 {
     width: 200px;
     text-transform: capitalize;
-    background-color: white;
+    background-color: @white-color;
     margin: 0 auto;
     display: block;
     margin-top:40px;
@@ -763,15 +762,15 @@ button.contact:focus
     border-radius: 50%;
     height: 150px;
     width: 150px;
-    background-color: white;
+    background-color: @white-color;
     margin: 0 auto;
     background-image: url(https://ca.slack-edge.com/T4JUEB3ME-UFY9GF4DN-876ccf1950b8-512);
     background-size: cover;
     background-position: 50% 50%;
     top:75px;
-    -webkit-box-shadow: inset 0px 0px 5px 1px rgba(0,0,0,0.3);
-    -moz-box-shadow: inset 0px 0px 5px 1px rgba(0,0,0,0.3);
-    box-shadow: inset 0px 0px 5px 1px rgba(0,0,0,0.3);
+    -webkit-box-shadow: inset 0px 0px 5px 1px @black-color;
+    -moz-box-shadow: inset 0px 0px 5px 1px @black-color;
+    box-shadow: inset 0px 0px 5px 1px @black-color;
     @-webkit-transition: top 0.7s ease-in-out, background 0.15s ease;
     @-moz-transition:    top 0.7s ease-in-out, background 0.15s ease;
     @-o-transition:      top 0.7s ease-in-out, background 0.15s ease;
@@ -789,15 +788,15 @@ button.contact:focus
     border-radius: 50%;
     height: 150px;
     width: 150px;
-    background-color: white;
+    background-color: @white-color;
     margin: 0 auto;
     background-image: url(https://avatars0.githubusercontent.com/u/1680153?s=460&v=4);
     background-size: cover;
     background-position: 50% 50%;
     top:75px;
-    -webkit-box-shadow: inset 0px 0px 5px 1px rgba(0,0,0,0.3);
-    -moz-box-shadow: inset 0px 0px 5px 1px rgba(0,0,0,0.3);
-    box-shadow: inset 0px 0px 5px 1px rgba(0,0,0,0.3);
+    -webkit-box-shadow: inset 0px 0px 5px 1px @black-color;
+    -moz-box-shadow: inset 0px 0px 5px 1px @black-color;
+    box-shadow: inset 0px 0px 5px 1px @black-color;
     @-webkit-transition: top 0.7s ease-in-out, background 0.15s ease;
     @-moz-transition:    top 0.7s ease-in-out, background 0.15s ease;
     @-o-transition:      top 0.7s ease-in-out, background 0.15s ease;
@@ -813,15 +812,15 @@ button.contact:focus
     border-radius: 50%;
     height: 150px;
     width: 150px;
-    background-color: white;
+    background-color: @white-color;
     margin: 0 auto;
     background-image: url(https://ca.slack-edge.com/T4JUEB3ME-UMR10UR2S-b9ce66253e0d-512);
     background-size: cover;
     background-position: 50% 50%;
     top:75px;
-    -webkit-box-shadow: inset 0px 0px 5px 1px rgba(0,0,0,0.3);
-    -moz-box-shadow: inset 0px 0px 5px 1px rgba(0,0,0,0.3);
-    box-shadow: inset 0px 0px 5px 1px rgba(0,0,0,0.3);
+    -webkit-box-shadow: inset 0px 0px 5px 1px @black-color;
+    -moz-box-shadow: inset 0px 0px 5px 1px @black-color;
+    box-shadow: inset 0px 0px 5px 1px @black-color;
     @-webkit-transition: top 0.7s ease-in-out, background 0.15s ease;
     @-moz-transition:    top 0.7s ease-in-out, background 0.15s ease;
     @-o-transition:      top 0.7s ease-in-out, background 0.15s ease;
@@ -836,15 +835,15 @@ button.contact:focus
     border-radius: 50%;
     height: 150px;
     width: 150px;
-    background-color: white;
+    background-color: @white-color;
     margin: 0 auto;
     background-image: url(https://ca.slack-edge.com/T4JUEB3ME-UM084PGEQ-8a4318dd4175-512);
     background-size: cover;
     background-position: 50% 50%;
     top:75px;
-    -webkit-box-shadow: inset 0px 0px 5px 1px rgba(0,0,0,0.3);
-    -moz-box-shadow: inset 0px 0px 5px 1px rgba(0,0,0,0.3);
-    box-shadow: inset 0px 0px 5px 1px rgba(0,0,0,0.3);
+    -webkit-box-shadow: inset 0px 0px 5px 1px @black-color;
+    -moz-box-shadow: inset 0px 0px 5px 1px @black-color;
+    box-shadow: inset 0px 0px 5px 1px @black-color;
     @-webkit-transition: top 0.7s ease-in-out, background 0.15s ease;
     @-moz-transition:    top 0.7s ease-in-out, background 0.15s ease;
     @-o-transition:      top 0.7s ease-in-out, background 0.15s ease;
