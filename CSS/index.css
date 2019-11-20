@@ -161,6 +161,9 @@ body {
 .diytitle:hover {
   color: black;
 }
+.bold {
+  font-size: 1.5rem;
+}
 img {
   max-width: 100%;
   display: block;
@@ -237,14 +240,13 @@ strong {
   justify-content: space-between;
 }
 header {
-  background: #edc7c5;
   text-align: center;
   margin-bottom: 3em;
 }
 footer {
   background: #edc7c5;
   text-align: center;
-  padding: 3em 0;
+  padding: 2em 0;
 }
 @media (max-width: 675px) {
   header {
