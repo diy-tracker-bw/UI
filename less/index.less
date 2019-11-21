@@ -146,7 +146,7 @@ strong {
 //h1 subtitle//
 .subtitle {
   font-weight: 700;
-  color: black;
+  color: @black-color;
   font-size: .75rem;
   margin: 0;
 }
@@ -154,7 +154,8 @@ strong {
 	font-size: 1.5rem;
 }
 
-.article-read-more,
+.article-read-more
+       &
 .article-info {
 	font-size: 0.875rem;
 }
@@ -164,7 +165,8 @@ strong {
 	.font();
 }
 
-.article-read-more:hover,
+.article-read-more:hover
+          &
 .article-read-more:focus {
 	text-decoration: underline;
 	
