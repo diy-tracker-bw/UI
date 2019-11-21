@@ -168,6 +168,9 @@ body {
 .bold:hover {
   color: hotpink;
 }
+.bold:hover {
+  font-weight: bold;
+}
 img {
   max-width: 100%;
   display: block;
@@ -202,21 +205,19 @@ strong {
   font-weight: 700;
   color: black;
   font-size: 0.75rem;
-  margin: 0;
+  margin-top: 0;
 }
 .article-title {
   font-size: 1.5rem;
 }
-.article-read-more,
-.article-info {
+.article-read-more  .article-info {
   font-size: 0.875rem;
 }
 .article-read-more {
   text-decoration: none;
   font-weight: 700;
 }
-.article-read-more:hover,
-.article-read-more:focus {
+.article-read-more:hover  .article-read-more:focus {
   text-decoration: underline;
 }
 .article-read-more:hover {
@@ -225,8 +226,7 @@ strong {
 .article-info {
   margin: 2em 0;
 }
-.widget-title,
-.widget-title-post-title {
+.widget-title  .widget-title-post-title {
   font-size: 1rem;
 }
 .widget-title {
@@ -285,8 +285,7 @@ nav a {
   font-weight: 700;
   padding: 0.25em 0;
 }
-nav a:hover,
-nav a:focus {
+nav a:hover  nav a:focus {
   color: lightblue;
 }
 .current-page {
