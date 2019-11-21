@@ -432,6 +432,9 @@ input[type=submit]:hover {
     background-color: whitesmoke;
   }
 }
+.top {
+  margin-bottom: 2pm;
+}
 html {
   overflow-x: hidden;
 }
