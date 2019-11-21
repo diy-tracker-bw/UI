@@ -916,7 +916,8 @@ button.contact:focus
 	.container-flex {
 		display: flex;
 		flex-direction: column;
-		align-items: center;
+        align-items: center;
+        
 	
 	}
 	main {
@@ -942,6 +943,16 @@ button.contact:focus
 @media @mobile {
 	.top{
 		display: flex;
-		justify-content: center;
+        justify-content: center;
+        
 	}
+}
+
+@media @mobile{
+.container-flex:first-child {
+    background-color: @main-color;
+    .diytitle {
+        background-color: @main-color;
+    }
+}
 }
