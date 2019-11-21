@@ -71,6 +71,9 @@ html, body {
 @import url('https://fonts.googleapis.com/css?family=Pacifico|Ubuntu&display=swap');
 @phone: ~"(max-width: 500px)";
 @phones: ~"(max-width: 675px)";
+@mobile: ~"(max-width: 680px)";
+@mobiles: ~"(max-width:675px)";
+@mobilesss: ~"(min-width:675px)";
 
 //mixin//
 .font(){
@@ -268,7 +271,7 @@ footer {
 	 color: #707070;
  }
 
- @media (max-width:675px) {
+ @media @mobiles {
 	 nav ul {
         flex-direction: column;
 	}
@@ -300,7 +303,7 @@ footer {
     order: 1;
 }
 
-@media (min-width: 675px) {
+@media @mobilesss{
     .article-recent {
         flex-direction: row;
         justify-content: space-between;
@@ -885,7 +888,7 @@ button.contact:focus
 
 
 //media query for main page//
-@media (max-width: 680px){
+@media @mobile {
 	.container-flex {
 		display: flex;
 		flex-direction: column;
