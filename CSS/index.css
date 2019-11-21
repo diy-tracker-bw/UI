@@ -701,3 +701,11 @@ button.contact:focus {
     justify-content: center;
   }
 }
+@media (max-width: 680px) {
+  .container-flex:first-child {
+    background-color: #edc7c5;
+  }
+  .container-flex:first-child .diytitle {
+    background-color: #edc7c5;
+  }
+}
