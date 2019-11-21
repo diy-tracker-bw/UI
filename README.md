@@ -1,6 +1,6 @@
 # Project Name
 - [UI DIY Tracker](https://uidiytracker.netlify.com/) 
-- [Front End REact App](https://diy-tracker-delta.now.sh/login)
+- [Front End React App](https://diy-tracker-delta.now.sh/login)
 
 # PITCH
 Pinterest is great, but I don't get a lot out of seeing SO much. I want to see people's DIY Projects and see the steps they took to do it themselves.
