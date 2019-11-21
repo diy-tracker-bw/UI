@@ -1,5 +1,6 @@
 # Project Name
-- DIY Tracker
+- [UI DIY Tracker](https://uidiytracker.netlify.com/) 
+- [Front End REact App](https://diy-tracker-delta.now.sh/login)
 
 # PITCH
 Pinterest is great, but I don't get a lot out of seeing SO much. I want to see people's DIY Projects and see the steps they took to do it themselves.
@@ -21,6 +22,8 @@ Pinterest is great, but I don't get a lot out of seeing SO much. I want to see p
 - DeAndre Johnson
 - BACKEND DEVELOPER
 - Patrick Chow
+- PROJECT LEAD
+- Zac Smith
 
 
 
