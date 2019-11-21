@@ -67,6 +67,7 @@ html, body {
 @black-color: black;
 @hpink-color: hotpink;
 @greyy-color: #707070;
+@pink-color: pink;
 @body-font: 'Pacifico', cursive;
 @text-font: 'Ubuntu', sans-serif;
 @import url('https://fonts.googleapis.com/css?family=Pacifico|Ubuntu&display=swap');
@@ -289,7 +290,7 @@ footer {
  /* articles */
 
 .article-featured {
-    border-bottom: #707070 1px solid;
+    border-bottom: @greyy-color 1px solid;
     padding-bottom: 2em;
     margin-bottom: 2em;
 }
@@ -398,7 +399,7 @@ input[type=text], select, textarea {
   
   
   input[type=submit] {
-	background-color: pink;
+	background-color: @pink-color;
 	color: @white-color;
 	padding: 12px 20px;
 	border: none;
@@ -408,7 +409,7 @@ input[type=text], select, textarea {
   
   
   input[type=submit]:hover {
-	background-color:pink;
+	background-color: @pink-color
   }
   
   
