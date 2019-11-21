@@ -696,3 +696,9 @@ button.contact:focus {
     width: 102%;
   }
 }
+@media (max-width: 680px) {
+  .top {
+    display: flex;
+    justify-content: center;
+  }
+}
