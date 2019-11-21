@@ -70,6 +70,7 @@ html, body {
 @pink-color: pink;
 @blue-color: #C7D0E1;
 @greyish-color: #979da8;
+@lightb-color: lightblue;
 @body-font: 'Pacifico', cursive;
 @text-font: 'Ubuntu', sans-serif;
 @import url('https://fonts.googleapis.com/css?family=Pacifico|Ubuntu&display=swap');
@@ -149,7 +150,7 @@ strong {
 
 //h1 subtitle//
 .subtitle {
-  font-weight: 700;
+  .font();
   color: @black-color;
   font-size: .75rem;
   margin: 0;
@@ -191,7 +192,7 @@ strong {
 
 .widget-title {
 	font-family: 'Ubuntu', sans-serif;
-	font-weight: 700;
+	.font();
 }
 
 .widget-recent-post-title {
@@ -261,14 +262,14 @@ footer {
 
  nav a {
 	 text-decoration: none;
-	 font-weight: 700;
+	 .font();
 	 padding: .25em 0;
  }
 
  nav a:hover
       &
  nav a:focus {
-	 color: lightblue;
+	 color: @lightb-color;
  }
 
  .current-page {
