@@ -219,6 +219,9 @@ strong {
 .article-read-more:focus {
   text-decoration: underline;
 }
+.article-read-more:hover {
+  color: hotpink;
+}
 .article-info {
   margin: 2em 0;
 }
