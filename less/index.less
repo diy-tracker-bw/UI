@@ -68,6 +68,8 @@ html, body {
 @hpink-color: hotpink;
 @greyy-color: #707070;
 @pink-color: pink;
+@blue-color: #C7D0E1;
+@greyish-color: #979da8;
 @body-font: 'Pacifico', cursive;
 @text-font: 'Ubuntu', sans-serif;
 @import url('https://fonts.googleapis.com/css?family=Pacifico|Ubuntu&display=swap');
@@ -641,7 +643,7 @@ a
     margin-right: 150px;
     width: 300px;;
     text-align: left;
-    color: #C7D0E1;
+    color: @blue-color;
 }
 
 button.contact
@@ -656,7 +658,7 @@ button.contact
     background-color: transparent;
     font-family: inherit;
     color: @white-color;
-    background-color: #C7D0E1;
+    background-color: @blue-color;
     font-size:12px;
     text-transform: uppercase;
     @-webkit-transition: all 0.3s ease-in-out;
@@ -668,7 +670,7 @@ button.contact
 button.contact:hover
 {
     cursor: pointer;
-    background-color:#979da8;
+    background-color: @greyish-color;
 }
 
 button.contact:focus
@@ -714,7 +716,7 @@ button.contact:focus
 
 .social-media-banner a i:hover
 {
-    color:#979da8;
+    color: @greyish-color;
 }
 
 .email-form
