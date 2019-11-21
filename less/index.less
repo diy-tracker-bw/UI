@@ -90,7 +90,9 @@ html, body {
 }
 
 
-
+.marginb(){
+    margin-bottom: 2em;
+}
 
 
 
@@ -162,7 +164,7 @@ strong {
   .font();
   color: @black-color;
   font-size: .75rem;
-  margin: 0;
+  .margin();
 }
 .article-title {
 	font-size: 1.5rem;
@@ -304,13 +306,13 @@ footer {
 .article-featured {
     border-bottom: @greyy-color 1px solid;
     padding-bottom: 2em;
-    margin-bottom: 2em;
+    .marginb();
 }
 
 .article-recent {
     display: flex;
     flex-direction: column;
-    margin-bottom: 2em;
+    .marginb();
 }
 
 .article-recent-main {
